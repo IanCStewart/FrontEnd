@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>opdarcht 1.2</title>
+		<meta name="author" content="Ian Stewart">
+	</head>
+
+	<body>
+		<main style="width:90%; margin: 0 auto;">
+			<article>
+				<h1>Aanmelden</h1>
+				<p>
+					Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+					<br/>
+					Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.
+				</p>
+				<em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</em>
+				<p>
+					Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+					<br/>
+					Voor vragen of opmerkingen kunt u <a href="">contact</a> met ons op.
+				</p>
+			</article>
+			<form>
+				<fieldset>
+					<legend>Contactgegevens:</legend>
+					Naam:<input type="text" name="Naam"><br/>
+					Bedrijf:<input type="text" name="Bedrijfs naam"><br/>
+					Adres:<input type="text" name="Adres"><br/>
+					Postcode:<input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" name="Postcode"><br/>
+					Plaats:<input type="text" name="Plaats"><br/>
+					Telefoon:<input type="tel" name="Telefoon"><br/>
+					Email:<input type="email" name="email"><br/>
+				</fieldset>
+				<fieldset>
+					<legend>Ik wil mijn aanmelden:</legend>
+					<input type="radio" name="option" value="project" >Voor een project<br/>
+					<input type="radio" name="option" value="stage">Als stagebedrijf
+				</fieldset>
+				<fieldset>
+					<legend>Project</legend>
+					Titel:<input type="text" name="titel"/><br/>
+					Opdrachtomschrijving:<br/>
+					<textarea name="Opdrachtomschrijving" rows="5"></textarea><br/>
+					Doelgroepomschrijving:<br/>
+					<textarea name="Doelgroepomschrijving" rows="5"></textarea><br/>
+					Doelstelling/intentievanhetproject:<br/>
+					<textarea name="Doelstelling/intentievanhetproject" rows="5"></textarea><br/>
+					Looptijd:<input type="number" name="Looptijd" min="0" /> weken<br/>
+					Deadline:<input type="date" name="Deadline" /><br/>
+					Geschikt voor:<select name="Geschikt voor">
+						<option value="eerstejaarsstudenten">eerstejaarsstudenten</option>
+						<option value="tweedejaarsstudenten">tweedejaarsstudenten</option>
+						<option value="derdejaarsstudenten">derdejaarsstudenten</option>
+						<option value="afstudeerstudenten">afstudeerstudenten</option>
+						<option value="onbekend">onbekend</option>
+					</select><br/>
+					Opmerking:<br/>
+					<textarea name="Opmerking" rows="10"></textarea>
+				</fieldset>
+				<fieldset>
+					<legend>Stage</legend>
+					Geschikt voor:<select name="Geschikt voor">
+						<option value="tweedejaarsstudenten">tweedejaarsstudenten</option>
+						<option value="afstudeerstudenten">afstudeerstudenten</option>
+						<option value="onbekend">onbekend</option>
+					</select><br />
+					Hoe lang is de stage?<br/>
+					<input type="radio" name="option2" value="10" >10 weken<br/>
+					<input type="radio" name="option2" value="20">20 weken<br/>
+					Begindatum:<input type="date" name="Begindatum" /><br/>
+					Beschrijving werkzaamheden:<br/>
+					<textarea name="Beschrijving werkzaamheden" rows="10">Beschrijvingstagewerkzaamheden</textarea><br/>
+					Beschrijving stagebedrijf:<br/>
+					<textarea name="Beschrijving stagebedrijf" rows="13">
+						1. Bedrijfsnaam
+						2. Adres
+						3. postcode
+						4. Plaats
+						5. Sector
+						6. Core Business
+					</textarea><br/>
+					Opmerking:<br/>
+					<textarea name="Opmerking" rows="10"></textarea>
+				</fieldset>
+				<input type="button" name="submit" value="submit" />
+			</form>
+		</main>
+	</body>
+</html>
