@@ -25,54 +25,54 @@
 			<form>
 				<fieldset>
 					<legend>Contactgegevens:</legend>
-					Naam:<input type="text" name="Naam"><br/>
-					Bedrijf:<input type="text" name="Bedrijfs naam"><br/>
-					Adres:<input type="text" name="Adres"><br/>
-					Postcode:<input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" name="Postcode"><br/>
-					Plaats:<input type="text" name="Plaats"><br/>
-					Telefoon:<input type="tel" name="Telefoon"><br/>
-					Email:<input type="email" name="email"><br/>
+					<label>Naam:<input type="text" name="Naam"></label><br />
+					<label>Bedrijf:<input type="text" name="Bedrijfs naam"></label><br />
+					<label>Adres:<input type="text" name="Adres"></label><br />
+					<label>Postcode:<input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" name="Postcode"></label><br />
+					<label>Plaats:<input type="text" name="Plaats"></label><br />
+					<label>Telefoon:<input type="tel" name="Telefoon"></label><br />
+					<label>Email:<input type="email" name="email"></label>
 				</fieldset>
 				<fieldset>
 					<legend>Ik wil mijn aanmelden:</legend>
-					<input type="radio" name="option" value="project" >Voor een project<br/>
-					<input type="radio" name="option" value="stage">Als stagebedrijf
+					<label><input type="radio" name="option" value="project" >Voor een project</label>
+					<label><input type="radio" name="option" value="stage">Als stagebedrijf</label>
 				</fieldset>
 				<fieldset>
 					<legend>Project</legend>
-					Titel:<input type="text" name="titel"/><br/>
-					Opdrachtomschrijving:<br/>
-					<textarea name="Opdrachtomschrijving" rows="5"></textarea><br/>
-					Doelgroepomschrijving:<br/>
-					<textarea name="Doelgroepomschrijving" rows="5"></textarea><br/>
-					Doelstelling/intentievanhetproject:<br/>
-					<textarea name="Doelstelling/intentievanhetproject" rows="5"></textarea><br/>
-					Looptijd:<input type="number" name="Looptijd" min="0" /> weken<br/>
-					Deadline:<input type="date" name="Deadline" /><br/>
-					Geschikt voor:<select name="Geschikt voor">
+					<label>Titel:<input type="text" name="titel"/></label><br/>
+					<label>Opdrachtomschrijving:<br/>
+					<textarea name="Opdrachtomschrijving" rows="5"></textarea></label><br/>
+					<label>Doelgroepomschrijving:<br/>
+					<textarea name="Doelgroepomschrijving" rows="5"></textarea></label><br/>
+					<label>Doelstelling/intentievanhetproject:<br/>
+					<textarea name="Doelstelling/intentievanhetproject" rows="5"></textarea></label><br/>
+					<label>Looptijd:<input type="number" name="Looptijd" min="0" /> weken</label><br/>
+					<label>Deadline:<input type="date" name="Deadline" /></label><br/>
+					<label>Geschikt voor:<select name="Geschikt voor">
 						<option value="eerstejaarsstudenten">eerstejaarsstudenten</option>
 						<option value="tweedejaarsstudenten">tweedejaarsstudenten</option>
 						<option value="derdejaarsstudenten">derdejaarsstudenten</option>
 						<option value="afstudeerstudenten">afstudeerstudenten</option>
 						<option value="onbekend">onbekend</option>
-					</select><br/>
-					Opmerking:<br/>
-					<textarea name="Opmerking" rows="10"></textarea>
+					</select></label><br/>
+					<label>Opmerking:<br/>
+					<textarea name="Opmerking" rows="10"></textarea></label>
 				</fieldset>
 				<fieldset>
 					<legend>Stage</legend>
-					Geschikt voor:<select name="Geschikt voor">
+					<label>Geschikt voor:<select name="Geschikt voor">
 						<option value="tweedejaarsstudenten">tweedejaarsstudenten</option>
 						<option value="afstudeerstudenten">afstudeerstudenten</option>
 						<option value="onbekend">onbekend</option>
-					</select><br />
+					</select></label><br />
 					Hoe lang is de stage?<br/>
-					<input type="radio" name="option2" value="10" >10 weken<br/>
-					<input type="radio" name="option2" value="20">20 weken<br/>
-					Begindatum:<input type="date" name="Begindatum" /><br/>
-					Beschrijving werkzaamheden:<br/>
-					<textarea name="Beschrijving werkzaamheden" rows="10">Beschrijvingstagewerkzaamheden</textarea><br/>
-					Beschrijving stagebedrijf:<br/>
+					<label><input type="radio" name="option2" value="10" >10 weken</label><br/>
+					<label><input type="radio" name="option2" value="20">20 weken</label><br/>
+					<label>Begindatum:<input type="date" name="Begindatum" /></label><br/>
+					<label>Beschrijving werkzaamheden:<br/>
+					<textarea name="Beschrijving werkzaamheden" rows="10">Beschrijvingstagewerkzaamheden</textarea></label><br/>
+					<label>Beschrijving stagebedrijf:<br/>
 					<textarea name="Beschrijving stagebedrijf" rows="13">
 						1. Bedrijfsnaam
 						2. Adres
@@ -80,11 +80,11 @@
 						4. Plaats
 						5. Sector
 						6. Core Business
-					</textarea><br/>
-					Opmerking:<br/>
-					<textarea name="Opmerking" rows="10"></textarea>
+					</textarea></label><br/>
+					<label>Opmerking:<br/>
+					<textarea name="Opmerking" rows="10"></textarea></label>
 				</fieldset>
-				<input type="button" name="submit" value="submit" />
+				<label><input type="button" name="submit" value="submit" /></label>
 			</form>
 		</main>
 	</body>
